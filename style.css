@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li{
+    text-align: center;
+}
+
+.gameContainer{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+    font-family: 'roboto', sans-serif;
+    position: relative;
+}
+
+.box {
+    border: 2px solid black;
+    /* vw is used for the responive for all devices */
+    font-size: 8vw;
+    /* by using the cursor: pointer; it shows the hand button when we put our pointer */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    background-color: rgb(246, 246, 247);
+}
+
+.gameInfo{
+    padding: 0 34px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.imagebox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+#reset {
+    margin: 0 23px;
+    padding: 1px 18px;
+    background: #f3e7f9;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.line{
+    background-color: black;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    background-color: #911d91;
+    transition: width 1s ease-in-out;
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .gameContainer{
+        flex-wrap: wrap;
+    }   
+    .gameInfo{
+        margin-top: 34px;
+    }
+}
