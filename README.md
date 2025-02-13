@@ -1,4 +1,4 @@
-live link:-> https://tic-tack-toe-orpin.vercel.app/
+Live link:-> https://tic-tack-toe-orpin.vercel.app/
 
 🎮 Tick-Tack-Toe Game
 
@@ -23,3 +23,11 @@ A simple Tic-Tac-Toe game built with HTML, CSS, and JavaScript. Play against you
 ✅ Reset button to restart the game.
 ✅ Responsive design.
 ✅ Fun winning animation with a GIF.
+
+💡 Future Enhancements
+
+Here are some ideas to improve the game:
+	•	🎮 Single-player mode (play against AI).
+	•	🔊 Sound effects for moves & winning moments.
+	•	🎨 Custom themes (dark mode, neon, etc.).
+	•	🏆 Score tracking for multiple rounds.
